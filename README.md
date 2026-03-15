@@ -1,6 +1,12 @@
-# Cylinder Fall Detection System
+# ArUco Fall Detection
 
-A robust computer vision system designed to detect fall events for cylindrical objects using ArUco markers. This project integrates real-time detection with Azure SQL Database logging and Azure Logic App alerts, featuring a verification workflow for Responsible AI.
+A computer vision system that detects fall events for cylindrical objects using ArUco markers, with Azure SQL logging and Logic App alerts.
+
+## Demo
+
+<video src="demo.mp4" controls width="720"></video>
+
+> Real-time fall detection pipeline: webcam → ArUco pose estimation → fall confirmation (2s threshold) → alert dispatch.
 
 ## Key Features
 
