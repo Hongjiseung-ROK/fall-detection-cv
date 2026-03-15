@@ -4,7 +4,7 @@ A computer vision system that detects fall events for cylindrical objects using 
 
 ## Demo
 
-<video src="demo.mp4" controls width="720"></video>
+<video src="https://github.com/user-attachments/assets/d4e3ce8b-0082-4e2a-8a81-0f2b1abff53c" controls width="720"></video>
 
 > Real-time fall detection pipeline: webcam → ArUco pose estimation → fall confirmation (2s threshold) → alert dispatch.
 
